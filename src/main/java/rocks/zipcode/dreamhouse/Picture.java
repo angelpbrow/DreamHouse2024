@@ -51,25 +51,54 @@ public class Picture
         sun.moveHorizontal(150);
         sun.moveVertical(80);
         sun.changeSize(300);
-
         sun.makeVisible();
 
         wall = new Square();
         wall.moveVertical(80);
+        wall.moveHorizontal(-50);
         wall.changeSize(100);
+        wall.changeColor("black");
+        wall.makeVisible();
+
+        wall = new Square();
+        wall.moveVertical(80);
+        wall.moveHorizontal(30);
+        wall.changeSize(100);
+        wall.changeColor("black");
         wall.makeVisible();
 
         window = new Square();
-        window.changeColor("black");
-        window.moveHorizontal(20);
+        window.changeColor("yellow");
+        window.moveHorizontal(-20);
         window.moveVertical(100);
         window.makeVisible();
 
+
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(80);
+        window.moveVertical(100);
+        window.makeVisible();
+
+
+
+        window = new Square();
+        window.changeColor("red");
+        window.moveHorizontal(30);
+        window.moveVertical(140);
+        window.makeVisible();
+
+        window = new Square();
+        window.changeColor("red");
+        window.moveHorizontal(30);
+        window.moveVertical(150);
+        window.makeVisible();
+
         roof = new Triangle();
-        roof.changeColor("black");
-        roof.changeSize(50, 140);
-        roof.moveHorizontal(60);
-        roof.moveVertical(70);
+        roof.changeColor("red");
+        roof.changeSize(80, 180);
+        roof.moveHorizontal(50);
+        roof.moveVertical(35);
         roof.makeVisible();
 
         sun = new Circle();
