@@ -46,6 +46,20 @@ public class Picture
         window.changeSize(800);
         window.makeVisible();
 
+        roof = new Triangle();
+        roof.changeColor("black");
+        roof.changeSize(20, 180);
+        roof.moveHorizontal(200);
+        roof.moveVertical(100);
+        roof.makeVisible();
+        
+        roof = new Triangle();
+        roof.changeColor("black");
+        roof.changeSize(20, 180);
+        roof.moveHorizontal(150);
+        roof.moveVertical(100);
+        roof.makeVisible();
+
         sun = new Circle();
         sun.changeColor("blue");
         sun.moveHorizontal(150);
@@ -67,6 +81,7 @@ public class Picture
         wall.changeColor("black");
         wall.makeVisible();
 
+/* The windows warm with light */
         window = new Square();
         window.changeColor("yellow");
         window.moveHorizontal(-20);
@@ -81,7 +96,7 @@ public class Picture
         window.makeVisible();
 
 
-
+/*  The red door */
         window = new Square();
         window.changeColor("red");
         window.moveHorizontal(30);
